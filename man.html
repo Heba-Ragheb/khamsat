@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>heba</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styl.css">
+</head>
+<body>
+    <section class="div">
+        
+
+    <form onsubmit="return formValidate();" novalidate action="page.html">
+
+       
+            <div class="mm">
+                <hi>CREATE ACCOUNT</hi>
+                <span id="error" class="error"></span>
+            </div>
+        <label for="fname"> First Name</label>
+        <input type="text" id="fname" name="fname" placeholder="enter your first name" required>
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lname" placeholder="enter your last name" required><br><br>
+        <label for="emial"> Email</label>
+        <input type="email" id="email" name="email" placeholder="enter your email" required><br><br>
+        <label for="pnum"> Phone Number</label>
+        <input type="tel" id="pnum" name="pnum" placeholder="enter your phone Number" required><br><br>
+        <label for="password"> Password</label>
+        <input type="password" id="password" name="password" placeholder="enter your password" required><br><br>
+        <label for="password"> Confirm Password</label>
+        <input type="password" id="password" name="password" placeholder="enter your password" required><br><br>
+        <label for="bday"> Birthday</label>
+        <input type="date" id="bday" name="bday" required><br><br>
+        <label for="gender"> Gender</label><br><br>
+        <label for="male"> Male</label>
+        <input type="radio" value="male" name="gender" required class="x">
+        <label for="female"> Female</label>
+        <input type="radio" value="female" name="gender"required class="x"><br><br>
+         
+        <div class="b" ><input class ="bt" type="submit">
+         <input type="reset"  class ="bt" ><br></div>
+        
+        </fieldset>
+          </form>
+        </div>
+        <script src="man.js"></script>
+        </section>
+
+    </body>
+    </html>

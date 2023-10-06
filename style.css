@@ -1,0 +1,177 @@
+.nav{
+ 
+  height: 50px;
+  background-color: rgba(0, 0, 0, 0.603);
+  border: solid rgba(100, 100, 100, 0.329) ;
+}
+.right{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-right: 10px;
+}
+.nav .right button{
+  margin:  20px;
+  height: 40px;
+  width: 100px;
+  font-size: larger;
+ color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.329);
+  border-color: aliceblue;
+}
+.nav .right span {
+  padding: 10px;
+}
+
+  .c{
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 6px 0;
+    margin-left: 10px;
+    }
+.left{
+  display: flex;
+  margin: 10px;
+}
+.nav{
+  display: flex;
+  justify-content: space-between;
+}
+.background .ima{
+  position: relative;
+height: 100%;
+z-index: -1;
+
+}.background .paragr{
+  position: absolute;
+
+}
+.background{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.background .paragr h1{
+  font-size:xx-large;
+  font-style: oblique;
+}
+.background .paragr h2{
+ padding-left: 50px;
+}
+form{
+ padding-left: 100px;
+}
+input{
+  height: 30px;
+width: 400px;
+border-radius: 7px;
+position: relative;
+
+}.ser{
+  position: absolute;
+  z-index: 2;
+  left: 110px;
+  top: 145px;
+  
+}
+
+.second{
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+   
+}
+.third{
+    display: flex;
+ height: 200px;
+ margin: 10px;
+}.third .firs h4 {
+  color: aliceblue;
+  font-size: x-large;
+}
+
+.third .firs{
+width: 100%;
+height: 100%;
+position: relative;
+margin: 10px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.third .firs img{
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+height: 100%;}
+.fifth{
+  background-color: rgb(240, 239, 239);
+}
+.fifth .na{
+  margin: 40px;
+    display: flex;
+    justify-content:space-between;
+
+}
+.fif{
+  padding: 15px;
+}
+.fift{
+margin: 15px;
+  display: flex;
+  justify-content:space-between;
+
+}
+ .fifth .na button{
+  height: 30px;  
+color:rgb(8, 197, 8);
+border-color: rgb(8, 180, 8);
+background-color: aliceblue;
+}
+.checked {
+  color: orange;
+}
+
+  
+
+.fifth .fif{
+  margin: 10px;
+  width: 100%;
+}
+.sixx{
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+.seven{
+  height: 50px;
+  background-color: rgb(207, 201, 201);
+  display: flex;
+ justify-content: flex-end;
+}
+.seven button{
+  height: 40px;
+  background-color:rgb(207, 201, 201) ;
+   border-color :rgb(207, 201, 201);
+   padding: 20px;
+}
+.eight .ima{
+padding: 50px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.eight .pp{
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.eight .pp .q{
+padding: 5px;
+}
+.eight{
+  padding: 100px;
+}
